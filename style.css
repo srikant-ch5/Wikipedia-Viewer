@@ -1,0 +1,53 @@
+
+
+body{
+  background-color: #00FA9A;
+}
+
+#random{
+  padding-top:70px;
+  paddiang-bottom:45px;
+  padding-left:100px;
+  font-family:'Open Sans' sans-serif;
+}
+
+input[type="text"]{
+  width:170px;
+  box-sizing:border-box;
+  border:2px solid #ccc;
+  border-radius:50px;
+  font-size:16px;
+  
+  transition :width 0.8s ease-in-out
+}
+input[type="text"]:focus{
+  width:90%;
+}
+
+#searchDivision{
+  padding:20px;
+}
+
+header{
+  position:fixed;
+  width:100%;
+  text-align:center;
+  font-size:72px;
+  line-height:108x;
+  height:108x;
+  background: #335C7D;
+  color: #fff;
+  font-family:'PT Sans', sans-serif;
+  transition :all 0.4s ease;
+}
+
+header.getSmall{
+  font-size:24px;
+  line-height:48px;
+  height:48px;
+  background:#efc47D;
+  text-align:left;
+  padding-left:20px;
+  padding-top:0x;
+  padding-bottom:50px;
+}
